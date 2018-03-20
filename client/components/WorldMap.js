@@ -71,7 +71,7 @@ class WorldMap extends Component {
   }
   render() {
     return (
-      <svg width={ 800 } height={ 450 } viewBox="0 0 800 450">
+      <svg width={ 100% } height={ auto } viewBox="0 0 100% auto">
         <g className="countries">
           {
             this.state.worlddata.map((d,i) => (
